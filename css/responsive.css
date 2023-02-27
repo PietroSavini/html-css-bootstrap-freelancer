@@ -1,0 +1,17 @@
+@media screen and (min-width:576px){
+  
+
+}
+
+/* tablet <768px */
+@media screen and (min-width:768px){
+
+    .width-50{
+        width:60%
+    }
+
+    .width-70{
+        width:70%;
+    }
+}
+

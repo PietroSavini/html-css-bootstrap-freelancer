@@ -1,0 +1,57 @@
+/* reset */
+img {
+    max-width: 100%;
+}
+
+/* common */
+:root {
+    /* colors */
+    --bg-acqua: #1ABC9C;
+    --bg-footer1: #3A546D;
+    --primary-blue: #2C3E50;
+    --section-white-font: #172B3F;
+
+
+    /* debug */
+    --border: 1px solid black;
+}
+
+.debug {
+    border: var(--border);
+}
+
+section:nth-child(odd) {
+    background-color: var(--bg-acqua);
+    color: #fff;
+}
+
+/* personalized hr */
+hr {
+    border-top: 3px solid;
+    opacity: 1;
+}
+
+.col-2 i {
+    font-size: 20px;
+}
+
+.hr {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.hr:nth-child(even){
+    color: var(--primary-blue);
+}
+
+/* header ---------------------------------------------------------------------------------*/
+header {
+    height: 100px;
+    background-color: var(--primary-blue);
+    /* debug */
+    border: var(--border);
+}
+
+.jumbotron>div img {
+    max-width: 150px;
+}
