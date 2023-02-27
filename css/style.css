@@ -10,18 +10,34 @@ img {
     --bg-footer1: #3A546D;
     --primary-blue: #2C3E50;
     --section-white-font: #172B3F;
-
-
     /* debug */
     --border: 1px solid black;
 }
 
-.debug {
-    border: var(--border);
-}
-
 section:nth-child(odd) {
     background-color: var(--bg-acqua);
+    color: #fff;
+}
+
+section.jumbotron{
+    padding: calc(3rem + 100px) 0 3rem 0;
+}
+
+section{
+    padding: 3rem 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.btn span{
+    display: inline-block;
+    padding: .5rem 1rem;
+    border: 1px solid white;
+    background-color: var(--bg-acqua);
+    border-radius: 5px;
+    font-weight: bold;
     color: #fff;
 }
 
@@ -38,20 +54,31 @@ hr {
 .hr {
     width: 250px;
     margin: 0 auto;
-}
-
-.hr:nth-child(even){
-    color: var(--primary-blue);
+    margin-bottom: 1rem;
 }
 
 /* header ---------------------------------------------------------------------------------*/
 header {
+    position: fixed;
     height: 100px;
     background-color: var(--primary-blue);
-    /* debug */
-    border: var(--border);
+    z-index: 10;
 }
 
+/* jumbotron------------------------------------------------------------------------------- */
 .jumbotron>div img {
     max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+/* About------------------------------------------------------------------------------------ */
+.container-70{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    gap: 1rem;
+}
+
+.width-50{
+    width: 50%;
 }
