@@ -13,9 +13,17 @@
 </head>
 <body>
     <!-- header -->
-    <header class="container-fluid">
-        <div class="container-md">
-
+    <header class="container-fluid d-flex align-items-center">
+        <div class="container-sm d-flex justify-content-between">
+            <h3>START BOOTSTRAP</h3>
+            <div class="hamburger">
+                <input type="button" class="btn-secondary" value="&#8801">
+            </div>
+            <ul>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
         </div>
     </header>
     <!-- /header -->
@@ -81,24 +89,74 @@
                     </div>
                     <div class="width-50"><p>Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point</p></div>
                 </div>
-                <a href="" class="btn"><span><i class="fa-solid fa-download"></i> Download</span></a>
+                <a href="" class="btn btn-primary"><span><i class="fa-solid fa-download"></i> Download</span></a>
             </div>
         </section>
         <!-- / about -->
 
         <!-- contact me -->
         <section class="continer-fluid">
-            <div class="container-sm text-center"></div>
+            <div class="container-sm text-center">
+                <h2>CONTACT ME</h2>
+                <!-- personalized hr -->
+                <div class="row align-items-center hr">
+                    <div class="col"><hr></div>
+                    <div class="col-2 text-center"><i class="fa-solid fa-star"></i></div>
+                    <div class="col"><hr></div>
+                </div>
+                <!-- personalized hr -->
+
+                <!-- form -->
+                <form class="text-start container-70" action="">
+                    <div class="form--group">
+                        <label for="name"></label>
+                        <input type="text" class="form-control" name="" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="email" class="form-control" name="" id="email" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone"></label>
+                        <input type="text" class="form-control" name="" id="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"></label>
+                        <textarea  class="form-control" name="" id="message" placeholder="Message" rows="4"></textarea>
+                    </div>
+                        <input type="submit" class=" btn btn-primary mt-2" value="Send">
+                </form>
+            </div>
         </section>
         <!-- /contact me -->
-
     </main>
     <!-- /main -->
 
     <!-- footer -->
-    <footer>
-
+    <footer class="container-fluid py-4 footer-1">
+        <div class="container-sm ">
+            <div class="row row-cols-1 row-cols-sm-3 text-center gy-4">
+                <div class="col">
+                    <h5>LOCATION</h5>
+                    <p>2215 Jhon Daniel Drive Clark MO 54243</p>
+                </div>
+                <div class="col">
+                    <h5>LOCATION</h5>
+                    <span class="brand-logo"><i class="fa-brands fa-facebook-f"></i></span>
+                    <span class="brand-logo"><i class="fa-brands fa-google-plus-g"></i></span>
+                    <span class="brand-logo"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="brand-logo"><i class="fa-brands fa-linkedin-in"></i></span>
+                </div>
+                <div class="col">
+                    <h5>ABOOUT FREELANCER</h5>
+                    <p>Freelancer is a free to use, open source Bootstrap Theme created by <a href="" class="normal">Start Bootsrap</a>.</p>
+                </div>
+            </div>
+        </div>
     </footer>
+    <div class="footer-2 container-fluid py-4 text-center">
+        <span class="copyright">Copyright 	&#169; Your Website 2019</span>
+    </div>
     <!-- /foooter -->
 </body>
 </html>

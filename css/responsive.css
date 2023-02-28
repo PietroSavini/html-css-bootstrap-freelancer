@@ -5,11 +5,14 @@
     width: 100%;
   }
 
+  header ul{
+    display: none;
+  }
 }
 
-/* tablet <768px */
-@media screen and (min-width:768px){
-
-  
+@media screen and (min-width:577px){
+    .hamburger{
+        display: none;
+    }
 }
 
